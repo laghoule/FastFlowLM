@@ -17,15 +17,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - version: "24.04"
-            codename: "noble"
-            distro: "ubuntu"
-          - version: "25.10"
-            codename: "questing"
-            distro: "ubuntu"
-          - version: "26.04"
-            codename: "resolute"
-            distro: "ubuntu"
           - version: "unstable"
             codename: "unstable"
             distro: "debian"

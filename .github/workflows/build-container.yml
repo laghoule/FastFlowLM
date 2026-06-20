@@ -11,18 +11,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - release: "24.04"
-            ubuntu_ppa: "ppa:lemonade-team/stable"
-            distro: "ubuntu"
-            backports: ""
-          - release: "25.10"
-            ubuntu_ppa: "ppa:lemonade-team/stable"
-            distro: "ubuntu"
-            backports: ""
-          - release: "26.04"
-            ubuntu_ppa: ""
-            distro: "ubuntu"
-            backports: ""
           - release: "unstable"
             distro: "debian"
             ubuntu_ppa: ""
