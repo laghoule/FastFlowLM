@@ -23,7 +23,7 @@ jobs:
             ubuntu_ppa: ""
             distro: "ubuntu"
             backports: ""
-          - release: "14"
+          - release: "unstable"
             distro: "debian"
             ubuntu_ppa: ""
             backports: ""
