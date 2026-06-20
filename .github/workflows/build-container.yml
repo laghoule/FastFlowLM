@@ -2,7 +2,7 @@ name: Publish Containers
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Nightly at 2 AM UTC
+    - cron: "0 2 * * *" # Nightly at 2 AM UTC
   workflow_dispatch:
 
 jobs:
@@ -23,10 +23,10 @@ jobs:
             ubuntu_ppa: ""
             distro: "ubuntu"
             backports: ""
-          - release: "13"
+          - release: "14"
             distro: "debian"
             ubuntu_ppa: ""
-            backports: "trixie-backports"
+            backports: ""
 
     permissions:
       contents: read

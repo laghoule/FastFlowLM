@@ -26,8 +26,8 @@ jobs:
           - version: "26.04"
             codename: "resolute"
             distro: "ubuntu"
-          - version: "13"
-            codename: "trixie"
+          - version: "14"
+            codename: "unstable"
             distro: "debian"
 
     container:
