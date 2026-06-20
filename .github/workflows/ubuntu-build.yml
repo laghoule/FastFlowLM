@@ -22,10 +22,7 @@ jobs:
             distro: "debian"
 
     container:
-      image: ghcr.io/fastflowlm/fastflowlm/build-environment:${{ matrix.distro }}${{ matrix.version }}
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.FLM_TOKEN }}
+      image: laghoule/flm-builder:unstable
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
